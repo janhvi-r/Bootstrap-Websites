@@ -1,0 +1,40 @@
+section.header .col-md-12 {
+    background-color: brown;
+    padding: 40px;
+}
+
+.top {
+    color: white;
+}
+
+.top h4 {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+i {
+    padding: 5px;
+    margin: 5px;
+}
+
+.info span {
+    padding: 20px 0px 20px;
+}
+
+.common p {
+    margin-bottom: 2px;
+}
+
+section.brgray .col-md-12 {
+    background: #ddd;
+}
+
+hr {
+    margin: 0;
+    border: 1px solid brown;
+    margin-bottom: 15px;
+}
