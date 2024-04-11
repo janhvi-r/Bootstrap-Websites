@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Calligraffitti&family=Lato:ital,wght@1,300&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Calligraffitti&family=Lato:ital,wght@1,300&family=Metal+Mania&family=Ubuntu:wght@300&display=swap');
+.calligraffitti-regular {
+    font-family: "Calligraffitti", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.metal-mania-regular {
+    font-family: "Metal Mania", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+:root {
+    --font1: "Calligraffitti", cursive;
+    --font2: "Metal Mania", system-ui;
+}
+
+.box-shadow {
+    box-shadow: 0 0.25rem 0.75rem rgba(0, 0, 0, .05);
+}
+
+h1 {
+    font-family: "Metal Mania", system-ui;
+}
+
+#navbarSupportedContent ul li a {
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+#navbarSupportedContent ul li :hover {
+    text-decoration: underline;
+    color: black;
+}
+
+
+/* hero section start */
+
+.card-body {
+    padding: 1.25rem;
+}
+
+h2.card-title {
+    margin: 0;
+    padding: 25px 0px;
+    font-family: var(--font1);
+}
+
+hr {
+    margin: 0px;
+    color: inherit;
+    border: 0;
+    border-top: var(--bs-border-width) solid;
+    opacity: 0.25;
+}
+
+ul.card-list {
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px 10px;
+    font-family: var(--font2);
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+.button {
+    padding: 0px 35px 0px 35px;
+}
+
+a.btn.btn-outline-primary.text-center {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 15px 25px;
+}
+
+.button-unique a.btn {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    padding: 15px 25px;
+}
+
+.button-unique {
+    padding: 0px 35px 0px 35px;
+}
+
+
+/* footer section start */
+
+section.footer {
+    margin: 50px 0px 50px;
+}
+
+.footer .row {
+    padding-top: 35px;
+}
+
+img {
+    width: 20%;
+}
+
+.foot-list {
+    padding: 0px 15px;
+}
+
+.foot-list ul li {
+    list-style: none;
+}
+
+.foot-list ul li a {
+    padding-bottom: 0px;
+    text-decoration: none;
+    list-style-type: none;
+    color: black;
+}
+
+.foot-list ul li :hover {
+    text-decoration: underline;
+    color: black;
+}
+
+ul {
+    padding: 0px;
+}
