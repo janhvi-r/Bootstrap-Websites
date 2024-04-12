@@ -2,10 +2,97 @@
     background-color: rgba(0, 0, 0, .85);
 }
 
-.navbar-brand a img {
+.navbar-brand img {
     width: 10%;
+}
+
+li.nav-item {
+    padding-right: 43px;
 }
 
 a.nav-link {
     color: #999
+}
+
+
+/* header */
+
+.first.col-md-4 {
+    height: 370px;
+    background-color: #999;
+    border-radius: 20px;
+    rotate: 113deg;
+    position: relative;
+    bottom: 124px;
+    left: -94px;
+}
+
+.second.col-md-4 {
+    height: 370px;
+    background-color: black;
+    border-radius: 20px;
+    rotate: 119deg;
+    position: relative;
+    bottom: -158px;
+    left: 50px;
+}
+
+.box {
+    background-color: #ede9e9;
+    width: 81%;
+    height: 309px;
+    position: relative;
+    bottem: 49px;
+    left: 63px;
+    top: 28px;
+    margin: 4px;
+}
+
+.content {
+    position: relative;
+    bottom: -91px;
+}
+
+.bg-light {
+    overflow: hidden;
+}
+
+.hero .container-fluid1 {
+    padding: 60px;
+}
+
+.short-text {
+    height: 500px;
+    padding-top: 70px;
+}
+
+.short-text p {
+    padding-bottom: 48px;
+}
+
+.empty-box {
+    height: 300px;
+    background-color: rgb(240, 240, 240);
+    width: 80%;
+    align-items: center;
+    border-radius: 20px 20px 0px 0px;
+    position: relative;
+    left: 10%;
+}
+
+.capture {
+    width: 10%;
+}
+
+.foot-list li {
+    list-style: none;
+}
+
+.foot-list li a {
+    text-decoration: none;
+    color: #999;
+}
+
+.foot-list li :hover {
+    text-decoration: underline;
 }
