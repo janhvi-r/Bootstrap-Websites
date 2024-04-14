@@ -2,16 +2,28 @@
     background-color: rgba(0, 0, 0, .85);
 }
 
-.navbar-brand img {
-    width: 10%;
-}
-
 li.nav-item {
     padding-right: 43px;
 }
 
 a.nav-link {
     color: #999
+}
+
+.nav-link img {
+    width: 35%;
+}
+
+li.nav-item {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    left: auto;
+    width: 140px;
+}
+
+.text-light :hover {
+    color: white;
 }
 
 
@@ -53,10 +65,6 @@ a.nav-link {
     bottom: -91px;
 }
 
-.bg-light {
-    overflow: hidden;
-}
-
 .hero .container-fluid1 {
     padding: 60px;
 }
@@ -82,6 +90,10 @@ a.nav-link {
 
 .capture {
     width: 10%;
+}
+
+section.footer {
+    PADDING: 70PX;
 }
 
 .foot-list li {
