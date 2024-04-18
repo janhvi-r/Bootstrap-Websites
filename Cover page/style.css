@@ -1,3 +1,39 @@
-.container {
-    min-width: 540px;
+section#Hero {
+    background: black;
+    color: white;
+}
+
+h1.text-center {
+    padding-top: 200px;
+}
+
+h1.text-center {
+    margin-top: 200px;
+}
+
+button.btn.btn-primary.text-center.bg-white.text-black {
+    padding: 25px 40px;
+    font-size: 20px;
+    position: relative;
+    left: 42%;
+    margin: 25px 20px 380px;
+}
+
+button.btn.btn-primary.text-center {
+    position: relative;
+    left: 558px;
+}
+
+section#Footer {
+    padding-top: 300px;
+}
+
+Footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+section#Footera {
+    color: rgb(239 241 245);
+    text-decoration: none;
 }
