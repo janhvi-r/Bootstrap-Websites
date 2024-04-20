@@ -123,16 +123,60 @@ button.btn :hover {
 
 /* about section start */
 
-.aboutimg img {
+.img-round {
     border-radius: 50%;
-}
-
-ul,
-li {
-    list-style: none;
+    position: relative;
+    top: 10px;
+    right: 10px;
 }
 
 .aboutimg {
+    height: 220px;
+    width: 220px;
+    background-color: lightsteelblue;
+    margin-left: 50px;
+    border-radius: 50%;
+}
+
+.about-list {
+    list-style: none;
     display: flex;
-    justify-content: center;
+    text-align: end;
+    width: 100%;
+    margin: 0px 0px 100px;
+}
+
+.about-list2 {
+    list-style: none;
+    display: flex;
+    text-align: start;
+    width: 100%;
+    margin: 0px 0px 100px;
+    justify-content: flex-end;
+}
+
+.aboutimg2 {
+    height: 220px;
+    width: 220px;
+    background-color: lightsteelblue;
+    border-radius: 50%;
+    margin: 0px 50px 0px 0px;
+}
+
+.img-round2 {
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+
+.h4circle {
+    border-radius: 50%;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    height: 200px;
+    width: 200px;
+    background-color: #FFEB3B;
+    text-align: center;
 }
