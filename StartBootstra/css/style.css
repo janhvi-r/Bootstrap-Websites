@@ -180,17 +180,6 @@
                     margin-left: 50%;
                 }
                 
-                .h4circle {
-                    border-radius: 50%;
-                    position: relative;
-                    top: 10px;
-                    left: 10px;
-                    height: 200px;
-                    width: 200px;
-                    background-color: #FFEB3B;
-                    text-align: center;
-                }
-                
                 .about-list::after,
                 .about-list2::after {
                     content: '';
@@ -252,16 +241,32 @@
                     }
                 }
                 
-                .about-list3 {
+                li.about-list3 {
+                    height: 180px;
                     width: 180px;
-                    background-color: lightsteelblue;
-                    border-radius: 50%;
+                    border-radius: 100%;
                     overflow: hidden;
-                    padding: 5px;
                     position: relative;
                     left: 50%;
-                    top: 50%;
                     transform: translate(-50%, -0%);
+                    background-color: lightsteelblue;
+                    top: 50%;
+                    padding: 5px;
+                }
+                
+                .aboutimg3 {
+                    border-radius: 100%;
+                    background-color: yellow;
+                    width: 170px;
+                    height: 170px;
+                    position: absolute;
+                }
+                
+                h4.h4circle {
+                    text-align: center;
+                    justify-content: center;
+                    position: relative;
+                    top: 45px;
                 }
                 /* team section start here */
                 
