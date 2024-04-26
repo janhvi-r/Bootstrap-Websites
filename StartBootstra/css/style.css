@@ -42,6 +42,10 @@
                 .navbar-nav .nav-link.show {
                     color: #FF9800
                 }
+                
+                .navbar-nav a :hover {
+                    color: #FF9800
+                }
                 /* herocontent section start  */
                 
                 .head-content h1 {
@@ -60,6 +64,7 @@
                     background-color: orange;
                     padding: 40px;
                     border-radius: 50%;
+                    width: 180px;
                 }
                 
                 .icon i {
@@ -79,8 +84,8 @@
                     color: #fff;
                 }
                 
-                button.btn :hover {
-                    background: rgb(221, 144, 2);
+                .btn:hover {
+                    background-color: #c3830c
                 }
                 /* portfolio section start */
                 
@@ -112,6 +117,10 @@
                     #hero {
                         height: 300px;
                     }
+                }
+                
+                .portfolio-box img:hover {
+                    background-color: rgb(248, 170, 27);
                 }
                 /* about section start */
                 
@@ -319,4 +328,38 @@
                     display: flex;
                     justify-content: space-evenly;
                     padding: 0px 50px;
+                }
+                /* social section here */
+                
+                .social-img img {
+                    margin: 0px 40px;
+                }
+                /* contact us section */
+                
+                #contact-us {
+                    background-image: url(../assets/img/header-bg.jpg);
+                    height: 780px;
+                    position: relative;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-position: center;
+                }
+                
+                input.form-control {
+                    margin: 10px 0px;
+                    padding: 20px;
+                }
+                
+                .input-textarea Textarea {
+                    margin: 10px;
+                    height: 217px;
+                    padding: 20px
+                }
+                
+                .social-i ul.person-info.text-center {
+                    list-style: none;
+                    display: flex;
+                    padding: 0px 50px;
+                    justify-content: space-around;
+                    margin-top: 15px;
                 }
