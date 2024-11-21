@@ -39,6 +39,8 @@
 // }
 // console.log(sum);
 
+//Avarage Example
+
 let mar = [34, 34, 66, 78, 89, 60];
 let total = 0;
 for (let m of mar) {
@@ -58,3 +60,67 @@ for (let num of number) {
 console.log(sum);
 let avg1 = sum / number.length;
 console.log(avg1);
+
+
+
+
+
+let num = [56, 46, 32, 78, 99, 34];
+let add = 0;
+for (number of num) {
+    add += number;
+}
+console.log(add);
+let average = add / num.length;
+console.log(average);
+
+
+
+let Sister = [23, 42, 56, 78, 90, 58, 100, 34];
+let addition = 0;
+for (sis of Sister) {
+    addition += sis
+}
+console.log(addition);
+let Avg = addition / Sister.length;
+console.log(Avg);
+
+let items = [250, 645, 400, 300, 900, 50];
+items.push(1000);
+
+for (let i = 0; i < items.length; i++) {
+    let offer = items[i] / 10;
+    items[i] -= offer;
+}
+console.log(items);
+
+let sister = ["yogita", "pooja"]
+let brother = ["santosh", "suraj"];
+brother.push("Satish", "Nitin", "Nilesh");
+brother.pop();
+sister.unshift("jaya");
+brother.shift();
+sister.concat(brother);
+console.log(sister);
+console.log(sister.toString());
+let chilli = ["Green", "red", "Yellow", "orange"]
+    //chilli.splice(1, 2, 101, 102) //startIdx ,DeleteIdx,Add number
+    //chilli.splice(0, 0, 202) //Add element
+    //chilli.splice(1, 2) //Delete element
+chilli.splice(2, 1, 111) //replace element
+
+
+//Practice Question
+let companies = ["Bloomberg", "Microsoft", "Uber", "Google", "IBM", "Netflix"]
+    //companies.shift();//Remove first comp name
+    //companies.splice(2, 1, "Ola")//Remove and add
+companies.push("Amazon")
+
+
+
+function myFunction() {
+    console.log("welcome to the my new home");
+    console.log("Enjoy every moment");
+
+}
+myFunction();
