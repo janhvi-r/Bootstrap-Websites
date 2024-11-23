@@ -51,15 +51,14 @@ console.log(total);
 console.log(avg);
 
 
-let number = [2, 2, 1, 3, 4, 5];
-let sum = 0;
-for (let num of number) {
-    sum += num;
-
-}
-console.log(sum);
-let avg1 = sum / number.length;
-console.log(avg1);
+//let number = [2, 2, 1, 3, 4, 5];
+//let sum = 0;
+//for (let num of number) {
+//   sum += num;
+//}
+//console.log(sum);
+//let avg1 = sum / number.length;
+//console.log(avg1);
 
 
 
@@ -124,3 +123,42 @@ function myFunction() {
 
 }
 myFunction();
+
+function myFunction(msg, n) {
+    console.log(msg, n);
+}
+myFunction("i am lucky girl!", 100);
+
+//sum function 
+function sum(a, b) {
+    sum = a + b
+    return sum;
+}
+let val = sum(3, 5);
+console.log(val);
+
+//arrow function
+const arrowSum = (a, b) => {
+    console.log(a + b);
+}
+
+//multiplication function
+const arrowMul = (x, y) => {
+    console.log(x * y);
+}
+
+
+// Practice Question
+function countVowel(str) {
+    let count = 0;
+    for (const char of str) {
+        if (
+            char === "a" ||
+            char === "e" ||
+            char === "i" ||
+            char === "o" ||
+            char === "u"
+        ) { count++; }
+    }
+    console.log(count);
+}
