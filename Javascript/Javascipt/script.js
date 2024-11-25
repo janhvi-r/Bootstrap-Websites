@@ -147,8 +147,15 @@ const arrowMul = (x, y) => {
     console.log(x * y);
 }
 
+function alphabet(x, y) {
+    v = x / y
+    return v;
+}
+let valu = (14 / 2)
+console.log(valu);
 
 // Practice Question
+//used function 
 function countVowel(str) {
     let count = 0;
     for (const char of str) {
@@ -162,3 +169,23 @@ function countVowel(str) {
     }
     console.log(count);
 }
+
+//used arrow function
+const countvow = (str) => {
+    let cout = 0;
+    for (const chor of str) {
+        if (chor === "a" ||
+            chor === "e" ||
+            chor === "i" ||
+            chor === "o" ||
+            chor === "u"
+        ) { cout++; }
+
+    }
+    console.log(cout);
+}
+
+let nums = [2, 3, 4, 5, 6, 7, 8, 9]
+nums.forEach((num) => {
+    console.log(num * num);
+})
