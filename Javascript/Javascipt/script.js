@@ -185,7 +185,73 @@ const countvow = (str) => {
     console.log(cout);
 }
 
+//Used ForEach Loop in array
+let numbers = [11, 12, 13, 14, 15]
+
+numbers.forEach(function printVal(val) {
+    console.log(val);
+})
+let city = ["Mumbai", "Pune", "Hyderabad", "Banglore"]
+city.forEach((val, Idx) => {
+    console.log(val.toUpperCase(), Idx);
+})
+
+
 let nums = [2, 3, 4, 5, 6, 7, 8, 9]
 nums.forEach((num) => {
     console.log(num * num);
 })
+
+//Map 
+let numbe = [11111, 22222]
+let newArr = numbe.map((val) => {
+    //console.log(val);
+    return val;
+});
+console.log(newArr);
+
+//Filter
+let arr = [21, 22, 23, 24, 25, 26, 27, 28, 29, 30]
+let evenNum = arr.filter((val) => {
+    return val % 2 === 0;
+
+});
+console.log(evenNum);
+
+//reduce 
+let numArr = [1, 2, 3, 14]
+const arrSum = numArr.reduce((prev, cur) => {
+    return prev + cur;
+});
+console.log(arrSum);
+
+let largeNum = [101, 102, 232, 456, 999]
+const highNum = largeNum.reduce((prev, cur) => {
+    return prev > cur ? prev : cur;
+});
+console.log(highNum);
+
+//practice question
+//Marks of students 90+
+let rank = [45, 56, 99, 87, 91]
+const rankOne = rank.filter((val) => {
+    return val > 90;
+});
+console.log(rankOne);
+//1 used prompt and create  an array of numbers fron 1 to n
+let n = prompt("enter the number");
+let Arr = [];
+for (let i = 1; i <= n; i++) {
+    Arr[i - 0] = i;
+}
+console.log(Arr);
+//2 Calculate sum of all numbers in the array
+const calculate = Arr.reduce((prev, cur) => {
+    return prev + cur;
+});
+console.log(calculate);
+//3 calculate product of all numbers in the array (1*.....n)
+const factorial = Arr.reduce((prev, cur) => {
+    return prev * cur;
+});
+console.log(factorial);
