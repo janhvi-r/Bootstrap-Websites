@@ -249,9 +249,33 @@ console.log(Arr);
 const calculate = Arr.reduce((prev, cur) => {
     return prev + cur;
 });
-console.log(calculate);
+console.log("calculate =", calculate);
+
+
 //3 calculate product of all numbers in the array (1*.....n)
 const factorial = Arr.reduce((prev, cur) => {
     return prev * cur;
 });
 console.log(factorial);
+
+//DOM Manipulation
+
+let h1 = document.getElementsByClassName("firstheading"); //class
+console.log(h1);
+console.dir("h1");
+
+let h2 = document.getElementById("secheading"); //Id
+console.dir(h2);
+console.log("h2");
+
+let paragraphs = document.getElementsByTagName("p"); //tag
+console.dir(paragraphs);
+console.log("paragraphs");
+
+let parah = document.querySelector("p");
+console.dir(parah);
+console.log("parah");
+
+let firstEl = document.querySelectorAll("p");
+console.dir(firstEl);
+console.log("firstEl");
