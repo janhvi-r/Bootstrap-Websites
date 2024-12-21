@@ -264,9 +264,9 @@ let h1 = document.getElementsByClassName("firstheading"); //class
 console.log(h1);
 console.dir("h1");
 
-let h2 = document.getElementById("secheading"); //Id
-console.dir(h2);
-console.log("h2");
+//let h2 = document.getElementById("secheading"); //Id
+//console.dir(h2);
+//console.log("h2");
 
 let paragraphs = document.getElementsByTagName("p"); //tag
 console.dir(paragraphs);
@@ -279,3 +279,48 @@ console.log("parah");
 let firstEl = document.querySelectorAll("p");
 console.dir(firstEl);
 console.log("firstEl");
+
+let h2 = document.querySelector("h2");
+console.dir(h2.innerText);
+h2.innerText = h2.innerText + "From Apna College Student"; //added heading here
+console.log("h2.innerText");
+
+
+let divs = document.querySelectorAll(".Box");
+let idx = 1;
+for (let div of divs) {
+    div.innerText = `New Unique Value ${idx}`;
+    idx++;
+}
+
+
+//divs[0].innerText = "New Unique Value 1";
+//divs[1].innerText = "New Unique Value 2";
+//divs[2].innerText = "New Unique Value 3";
+
+//used Get Attribute
+
+let div = document.querySelector("div");
+//console.log(div);
+console.log(div.getAttribute("class"));
+
+
+let attr = document.querySelector("div");
+//console.log(attr.getAttribute("name"));
+console.log(attr.setAttribute("name", "JAVASCRIPT"));
+
+//node.style
+//let h2 = document.querySelector("h2");
+//h2.style.backgroundColor = "red";
+//h2.style.fontSize = "30px";
+
+
+let newHeading = document.createElement("h1");
+newHeading.innerHTML = "<i> Hi, I am a new ! </i>";
+
+
+document.querySelector("body").prepend(newHeading);
+
+let para = document.querySelector("p");
+para.remove();
+newHeading.remove();
